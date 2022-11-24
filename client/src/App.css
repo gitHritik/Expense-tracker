@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+ 
+*{
+  font-family: 'Baloo 2', cursive;
+}
+
+:root{
+  --color-yollow : #f9c74f;
+  --color-purple: #9d4edd;
+}
+
+:root{
+  --color-yollow :#f9c74f;
+  --color-purple: #9d4edd;
+}
+
+.bg-yellow{
+  background-color: var(--color-yollow);
+}
+
+.bg-purple{
+  background-color: var(--color-purple);
+}
+.chart .title{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-input{
+  @apply mt-1 block w-full py-2 px-3 border border-gray-200 bg-white rounded-md focus:outline-none focus:ring-indigo-500 sm:text-sm;
+}
